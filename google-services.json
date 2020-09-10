@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "4618455219",
+    "firebase_url": "https://caniparktest.firebaseio.com",
+    "project_id": "caniparktest",
+    "storage_bucket": "caniparktest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4618455219:android:0ff4afa9682132903d08c6",
+        "android_client_info": {
+          "package_name": "fish2salty.app.canipark2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4618455219-v79t9jqn39ta5n7bgljsekef75mtfkch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fish2salty.app.canipark2",
+            "certificate_hash": "dda06da1642b108911b814ce694da4dc96e3001c"
+          }
+        },
+        {
+          "client_id": "4618455219-iv4u7o12027ccc0int93m89heca1fun9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyS52aFszBYzbNFYS5H7XXFW742EA2G1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4618455219-iv4u7o12027ccc0int93m89heca1fun9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

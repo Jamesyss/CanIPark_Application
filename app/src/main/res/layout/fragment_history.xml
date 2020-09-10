@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mbg_his"
+    tools:context=".NavigationMenu.History.HistoryFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:layout_gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="bottom">
+
+            <LinearLayout
+                android:id="@+id/p1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="270dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_margin="10px"
+                    android:layout_width="470px"
+                    android:layout_height="300px"
+                    android:background="@drawable/park1"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Parking UTCC"
+                        android:textSize="25dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="20px"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="วันที่ 18/03/63"
+                        android:textSize="25dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="20px"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="01:00 hours"
+                        android:textSize="25dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="20px"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/p2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2">>
+
+                <ImageView
+                    android:layout_margin="10px"
+                    android:layout_width="470px"
+                    android:layout_height="300px"
+                    android:background="@drawable/park1"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Parking UTCC"
+                        android:textSize="25dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="20px"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="วันที่ 17/03/62"
+                        android:textSize="25dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="20px"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="02:00 hours"
+                        android:textSize="25dp"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="20px"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
